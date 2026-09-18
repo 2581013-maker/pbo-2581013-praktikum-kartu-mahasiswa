@@ -17,6 +17,11 @@ public class KartuMahasiswa {
         char golonganDarah = input.next().charAt(0);
 
         System.out.print("Sudah Menikah  : ");
+        boolean sudahMenikah = input.nextBoolean();
+
+        input.nextLine();
+
+
 
 
 
