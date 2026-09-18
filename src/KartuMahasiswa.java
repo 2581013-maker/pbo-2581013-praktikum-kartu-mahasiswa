@@ -14,7 +14,9 @@ public class KartuMahasiswa {
         double tinggi = input.nextDouble();
 
         System.out.print("Golongan darah : ");
-        char golonganDarah = input.nextBoolean();
+        char golonganDarah = input.next().charAt(0);
+
+        System.out.print("Sudah Menikah  : ");
 
 
 
