@@ -8,7 +8,14 @@ public class KartuMahasiswa {
         String NIK = input.nextLine();
 
         System.out.print("Umur           : ");
-        int umur = input.nextLine();
+        int umur = input.nextInt();
+
+        System.out.print("Tinggi Badan cm : ");
+        double tinggi = input.nextDouble();
+
+        System.out.print("Golongan darah : ");
+        char golonganDarah = input.nextBoolean();
+
 
 
 
